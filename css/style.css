@@ -1,0 +1,23 @@
+.page-container {
+  background:		white;
+  margin:				auto;
+  font-family: 	serif;
+  padding: 			20px 20px;
+}
+
+footer	{
+	/*position:			fixed;*/
+	bottom:				0px;
+	left:					0px;
+	width:				100%;
+	border-top:		1px solid #336;
+	padding:			0.5em 0;
+	text-align:		center;
+	background:		rgba(0, 0, 0, 0);
+	z-index:			3;
+}
+
+h2 {
+	text-align:		center;
+	margin:				0.25em 0 0.5em 0;
+}
