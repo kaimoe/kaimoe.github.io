@@ -1,8 +1,17 @@
+body {
+	background:		#f0f0f0;
+	line-height: 1.6;
+	font-size: 18px;
+}
+
 .page-container {
-  background:		white;
+	background:		white;
+	border: 			2px dashed;
   margin:				auto;
   font-family: 	serif;
   padding: 			20px 20px;
+	max-width: 		400px;
+	text-align: 	center;
 }
 
 footer	{
@@ -11,13 +20,21 @@ footer	{
 	left:					0px;
 	width:				100%;
 	border-top:		1px solid #336;
-	padding:			0.5em 0;
+	padding:			0.25em 0;
 	text-align:		center;
-	background:		rgba(0, 0, 0, 0);
+	background:		white;
+	font-size: 		16px;
 	z-index:			3;
 }
 
 h2 {
 	text-align:		center;
-	margin:				0.25em 0 0.5em 0;
+	margin:				0.5em 0 0.5em 0;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
