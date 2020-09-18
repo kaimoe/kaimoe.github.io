@@ -1,0 +1,3 @@
+[submodule "class-notes"]
+	path = class-notes
+	url = https://github.com/kaimoe/class-notes.git
